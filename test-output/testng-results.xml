@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="92312" started-at="2021-01-04T22:00:09 IST" finished-at="2021-01-04T22:01:41 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="92312" started-at="2021-01-04T22:00:09 IST" finished-at="2021-01-04T22:01:41 IST">
+      <class name="TestCases.SwitchtoAlert">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.SwitchtoAlert@627551fb]" name="setUp" is-config="true" duration-ms="15391" started-at="2021-01-04T22:01:20 IST" finished-at="2021-01-04T22:01:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="alerthanding()[pri:0, instance:TestCases.SwitchtoAlert@627551fb]" name="alerthanding" duration-ms="4738" started-at="2021-01-04T22:01:35 IST" finished-at="2021-01-04T22:01:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alerthanding -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.SwitchtoAlert@627551fb]" name="tearDown" is-config="true" duration-ms="1383" started-at="2021-01-04T22:01:40 IST" finished-at="2021-01-04T22:01:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.SwitchtoAlert -->
+      <class name="TestCases.RadioButtonSelection">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.RadioButtonSelection@43814d18]" name="setUp" is-config="true" duration-ms="21195" started-at="2021-01-04T22:00:09 IST" finished-at="2021-01-04T22:00:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectRadio()[pri:0, instance:TestCases.RadioButtonSelection@43814d18]" name="selectRadio" duration-ms="5921" started-at="2021-01-04T22:00:30 IST" finished-at="2021-01-04T22:00:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRadio -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.RadioButtonSelection@43814d18]" name="tearDown" is-config="true" duration-ms="1165" started-at="2021-01-04T22:00:36 IST" finished-at="2021-01-04T22:00:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.RadioButtonSelection -->
+      <class name="TestCases.CheckboxSelection">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.CheckboxSelection@5c5a1b69]" name="setUp" is-config="true" duration-ms="14871" started-at="2021-01-04T22:00:37 IST" finished-at="2021-01-04T22:00:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectCheckbox()[pri:0, instance:TestCases.CheckboxSelection@5c5a1b69]" name="selectCheckbox" duration-ms="5546" started-at="2021-01-04T22:00:52 IST" finished-at="2021-01-04T22:00:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCheckbox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.CheckboxSelection@5c5a1b69]" name="tearDown" is-config="true" duration-ms="1441" started-at="2021-01-04T22:00:58 IST" finished-at="2021-01-04T22:00:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.CheckboxSelection -->
+      <class name="TestCases.DropDownSelection">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.DropDownSelection@3701eaf6]" name="setUp" is-config="true" duration-ms="15535" started-at="2021-01-04T22:00:59 IST" finished-at="2021-01-04T22:01:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectDropDown()[pri:0, instance:TestCases.DropDownSelection@3701eaf6]" name="selectDropDown" duration-ms="3329" started-at="2021-01-04T22:01:15 IST" finished-at="2021-01-04T22:01:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDropDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.DropDownSelection@3701eaf6]" name="tearDown" is-config="true" duration-ms="1557" started-at="2021-01-04T22:01:18 IST" finished-at="2021-01-04T22:01:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.DropDownSelection -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
