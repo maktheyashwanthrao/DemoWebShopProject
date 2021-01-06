@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34280" started-at="2021-01-06T12:07:48 IST" finished-at="2021-01-06T12:08:22 IST">
+  <suite name="Default suite" duration-ms="32401" started-at="2021-01-06T23:37:35 IST" finished-at="2021-01-06T23:38:07 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34280" started-at="2021-01-06T12:07:48 IST" finished-at="2021-01-06T12:08:22 IST">
-      <class name="TestCases.Women_VerifyPageTitle_001">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Women_VerifyPageTitle_001@3dd4520b]" name="setUp" is-config="true" duration-ms="22946" started-at="2021-01-06T12:07:48 IST" finished-at="2021-01-06T12:08:11 IST">
+    <test name="Default test" duration-ms="32401" started-at="2021-01-06T23:37:35 IST" finished-at="2021-01-06T23:38:07 IST">
+      <class name="TestCases.Home_Contactus_SendMessage_003">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Home_Contactus_SendMessage_003@3dd4520b]" name="setUp" is-config="true" duration-ms="17406" started-at="2021-01-06T23:37:35 IST" finished-at="2021-01-06T23:37:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="selectCheckbox()[pri:0, instance:TestCases.Women_VerifyPageTitle_001@3dd4520b]" name="selectCheckbox" duration-ms="9340" started-at="2021-01-06T12:08:11 IST" finished-at="2021-01-06T12:08:21 IST">
+        <test-method status="PASS" signature="sendMessage()[pri:0, instance:TestCases.Home_Contactus_SendMessage_003@3dd4520b]" name="sendMessage" duration-ms="13814" started-at="2021-01-06T23:37:52 IST" finished-at="2021-01-06T23:38:06 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectCheckbox -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Women_VerifyPageTitle_001@3dd4520b]" name="tearDown" is-config="true" duration-ms="1853" started-at="2021-01-06T12:08:21 IST" finished-at="2021-01-06T12:08:22 IST">
+        </test-method> <!-- sendMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Home_Contactus_SendMessage_003@3dd4520b]" name="tearDown" is-config="true" duration-ms="1048" started-at="2021-01-06T23:38:06 IST" finished-at="2021-01-06T23:38:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.Women_VerifyPageTitle_001 -->
+      </class> <!-- TestCases.Home_Contactus_SendMessage_003 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

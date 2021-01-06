@@ -19,21 +19,29 @@ public class HomePage {
 
 	}
 
-//Radio button selection Xpath
-	@FindBy(linkText = "Women")
-	@CacheLookup
-	WebElement womenPage;
 
-	
-	
 
-	public WebElement getWomenPage() {
-		return womenPage;
+	//Homepage name verification
+		@FindBy(linkText = "Women")
+		@CacheLookup
+		WebElement womenPage;
+		
 
-	}
+		public WebElement getWomenPage() {
+			return womenPage;
 
-	
+		}
 
+		//Homepage contactuse
+				@FindBy(linkText = "Contact us")
+				@CacheLookup
+				WebElement Contactus;
+				
+
+				public WebElement getContactUsLink() {
+					return Contactus;
+
+				}
 	
 	
 }
