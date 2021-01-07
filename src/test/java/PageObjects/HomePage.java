@@ -43,5 +43,15 @@ public class HomePage {
 
 				}
 	
+				//CartButton 
+				@FindBy(className = "ajax_cart_no_product")
+				@CacheLookup
+				WebElement cartButton;
+				
+
+				public WebElement getcartButton() {
+					return cartButton;
+
+				}
 	
 }

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.Women_ContactUs_LinkVerification_002">
+      <class name="TestCases.Home_CartButton_004">
         <methods>
+          <include name="verifyCartWithoutProduct"/>
           <include name="tearDown"/>
-          <include name="verifyContactUseLink"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.Women_ContactUs_LinkVerification_002 -->
+      </class> <!-- TestCases.Home_CartButton_004 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
