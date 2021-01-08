@@ -19,39 +19,73 @@ public class HomePage {
 
 	}
 
+	// Homepage name verification
+	@FindBy(linkText = "Women")
+	@CacheLookup
+	WebElement womenPage;
 
+	public WebElement getWomenPage() {
+		return womenPage;
 
-	//Homepage name verification
-		@FindBy(linkText = "Women")
+	}
+
+	// Homepage contactuse
+	@FindBy(linkText = "Contact us")
+	@CacheLookup
+	WebElement Contactus;
+
+	public WebElement getContactUsLink() {
+		return Contactus ;
+
+	}
+
+	// CartButton
+	@FindBy(className = "ajax_cart_no_product")
+	@CacheLookup
+	WebElement cartButton;
+
+	public WebElement getcartButton() {
+		return cartButton;
+
+	}
+	
+	// selectproduct add to cart
+		@FindBy(xpath = "//span[text() = 'Add to cart']")
 		@CacheLookup
-		WebElement womenPage;
-		
+		WebElement addtoCart;
 
-		public WebElement getWomenPage() {
-			return womenPage;
+		public WebElement getAddtoCartButton() {
+			return addtoCart;
 
 		}
+		
+		// mousehover to any product 
+		@FindBy(xpath = "//img[@title='Faded Short Sleeve T-shirts']")
+		@CacheLookup
+		WebElement mouseHoverproduct;
 
-		//Homepage contactuse
-				@FindBy(linkText = "Contact us")
+		public WebElement getMouseHover() {			
+			return mouseHoverproduct;
+
+		}
+		
+		// selectproduct button with product
+				@FindBy(xpath = "//span[text()='Product']")
 				@CacheLookup
-				WebElement Contactus;
-				
+				WebElement addtoCartWithProduct;
 
-				public WebElement getContactUsLink() {
-					return Contactus;
+				public WebElement getAddtoCartButtonWithProduct() {
+					return addtoCartWithProduct;
 
 				}
-	
-				//CartButton 
-				@FindBy(className = "ajax_cart_no_product")
-				@CacheLookup
-				WebElement cartButton;
 				
+				// close Add to cart popup 
+				@FindBy(xpath = "//span[@title='Close window']")
+				@CacheLookup
+				WebElement closeAddtoCartPopup;
 
-				public WebElement getcartButton() {
-					return cartButton;
+				public WebElement getCloseAddtoCartPopup() {
+					return closeAddtoCartPopup;
 
 				}
-	
 }
