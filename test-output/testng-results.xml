@@ -1,25 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25327" started-at="2021-01-09T01:51:06 IST" finished-at="2021-01-09T01:51:31 IST">
+  <suite name="Suite" duration-ms="97298" started-at="2021-01-10T00:54:12 IST" finished-at="2021-01-10T00:55:49 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25327" started-at="2021-01-09T01:51:06 IST" finished-at="2021-01-09T01:51:31 IST">
-      <class name="TestCases.Women_VerifySortByDropDown_001">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Women_VerifySortByDropDown_001@3dd4520b]" name="setUp" is-config="true" duration-ms="17110" started-at="2021-01-09T01:51:06 IST" finished-at="2021-01-09T01:51:23 IST">
+    <test name="Test" duration-ms="97298" started-at="2021-01-10T00:54:12 IST" finished-at="2021-01-10T00:55:49 IST">
+      <class name="TestCases.Home_Contactus_HomeButtonVerification_002">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Home_Contactus_HomeButtonVerification_002@26aa12dd]" name="setUp" is-config="true" duration-ms="13872" started-at="2021-01-10T00:54:40 IST" finished-at="2021-01-10T00:54:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySortByDropDowm()[pri:0, instance:TestCases.Women_VerifySortByDropDown_001@3dd4520b]" name="verifySortByDropDowm" duration-ms="7034" started-at="2021-01-09T01:51:23 IST" finished-at="2021-01-09T01:51:30 IST">
+        <test-method status="PASS" signature="homeButtonVerification()[pri:0, instance:TestCases.Home_Contactus_HomeButtonVerification_002@26aa12dd]" name="homeButtonVerification" duration-ms="9225" started-at="2021-01-10T00:54:54 IST" finished-at="2021-01-10T00:55:03 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySortByDropDowm -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Women_VerifySortByDropDown_001@3dd4520b]" name="tearDown" is-config="true" duration-ms="1044" started-at="2021-01-09T01:51:30 IST" finished-at="2021-01-09T01:51:31 IST">
+        </test-method> <!-- homeButtonVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Home_Contactus_HomeButtonVerification_002@26aa12dd]" name="tearDown" is-config="true" duration-ms="1085" started-at="2021-01-10T00:55:03 IST" finished-at="2021-01-10T00:55:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.Women_VerifySortByDropDown_001 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- TestCases.Home_Contactus_HomeButtonVerification_002 -->
+      <class name="TestCases.Women_VerifyPageTitle_001">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Women_VerifyPageTitle_001@131276c2]" name="setUp" is-config="true" duration-ms="17161" started-at="2021-01-10T00:54:12 IST" finished-at="2021-01-10T00:54:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyWomenPage()[pri:0, instance:TestCases.Women_VerifyPageTitle_001@131276c2]" name="VerifyWomenPage" duration-ms="8945" started-at="2021-01-10T00:54:29 IST" finished-at="2021-01-10T00:54:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWomenPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Women_VerifyPageTitle_001@131276c2]" name="tearDown" is-config="true" duration-ms="1432" started-at="2021-01-10T00:54:38 IST" finished-at="2021-01-10T00:54:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.Women_VerifyPageTitle_001 -->
+      <class name="TestCases.Home_ContactUs_LinkVerification_001">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Home_ContactUs_LinkVerification_001@711f39f9]" name="setUp" is-config="true" duration-ms="14143" started-at="2021-01-10T00:55:26 IST" finished-at="2021-01-10T00:55:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactUseLink()[pri:0, instance:TestCases.Home_ContactUs_LinkVerification_001@711f39f9]" name="verifyContactUseLink" duration-ms="7845" started-at="2021-01-10T00:55:40 IST" finished-at="2021-01-10T00:55:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUseLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Home_ContactUs_LinkVerification_001@711f39f9]" name="tearDown" is-config="true" duration-ms="1092" started-at="2021-01-10T00:55:48 IST" finished-at="2021-01-10T00:55:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.Home_ContactUs_LinkVerification_001 -->
+      <class name="TestCases.Dress_VerifyPageTitle_001">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Dress_VerifyPageTitle_001@3fd7a715]" name="setUp" is-config="true" duration-ms="15879" started-at="2021-01-10T00:55:04 IST" finished-at="2021-01-10T00:55:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyDressPage()[pri:0, instance:TestCases.Dress_VerifyPageTitle_001@3fd7a715]" name="verifyDressPage" duration-ms="5383" started-at="2021-01-10T00:55:20 IST" finished-at="2021-01-10T00:55:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDressPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Dress_VerifyPageTitle_001@3fd7a715]" name="tearDown" is-config="true" duration-ms="1089" started-at="2021-01-10T00:55:25 IST" finished-at="2021-01-10T00:55:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.Dress_VerifyPageTitle_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

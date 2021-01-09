@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestCases.SwitchtoAlert">
+      <class name="TestCases.Home_AddToCart_CheckProduct_006">
         <methods>
           <include name="tearDown"/>
-          <include name="alerthanding"/>
+          <include name="ProductSelection"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.SwitchtoAlert -->
+      </class> <!-- TestCases.Home_AddToCart_CheckProduct_006 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

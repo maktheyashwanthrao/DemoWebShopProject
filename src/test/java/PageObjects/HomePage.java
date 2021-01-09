@@ -79,6 +79,26 @@ public class HomePage {
 
 				}
 				
+				// capturing product amount in main page
+				@FindBy(xpath = "//span[contains(@class,'product-price')]")
+				@CacheLookup
+				WebElement productPrice;
+
+				public WebElement getProductPrice() {
+					return productPrice;
+
+				}
+				
+				// capturing product amount popup
+				@FindBy(xpath = "//span[contains(@class,'ajax_block_products_total')]")
+				@CacheLookup
+				WebElement productPriceInPopup;
+
+				public WebElement getProductPriceInPopUp() {
+					return productPriceInPopup;
+
+				}
+				
 				// close Add to cart popup 
 				@FindBy(xpath = "//span[@title='Close window']")
 				@CacheLookup
@@ -86,6 +106,27 @@ public class HomePage {
 
 				public WebElement getCloseAddtoCartPopup() {
 					return closeAddtoCartPopup;
+
+				}
+				
+				
+				// get product added message
+				@FindBy(xpath = "//div[@id='layer_cart']//div//div//h2")
+				@CacheLookup
+				WebElement productmessage;
+
+				public WebElement getSuccessfulMessage() {
+					return productmessage;
+
+				}
+				
+				// Dress Page Link
+				@FindBy(linkText = "DRESSES")
+				@CacheLookup
+				WebElement dressLink;
+
+				public WebElement getDresSLink() {
+					return dressLink;
 
 				}
 }

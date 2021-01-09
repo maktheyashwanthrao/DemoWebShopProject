@@ -1,0 +1,8 @@
+01:25:12.741 [main] ERROR TestCases.BaseClass - Home Page driver is initialized
+01:25:12.773 [main] FATAL TestCases.BaseClass - am fatal error
+01:25:12.774 [main] INFO  TestCases.BaseClass - am information
+01:25:37.396 [main] ERROR TestCases.BaseClass - Home Page driver is initialized
+01:25:37.396 [main] FATAL TestCases.BaseClass - am fatal error
+01:25:37.396 [main] INFO  TestCases.BaseClass - am information
+01:25:59.221 [main] ERROR TestCases.BaseClass - Home Page driver is initialized
+01:25:59.222 [main] FATAL TestCases.BaseClass - am fatal error

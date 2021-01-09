@@ -3,8 +3,17 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestCases.Women_VerifyPageTitle_001"/>
-      <class name="TestCases.BaseClass"/>
+     <!-- <class name="TestCases.Women_VerifyPageTitle_001"/> --> 
+      <!-- <class name="TestCases.Home_CartButtonVerification_WithoutProduct_004"/> -->
+      <!--  <class name="TestCases.Home_Contactus_HomeButtonVerification_002"/>-->
+      <!-- <class name="TestCases.Home_CartButtonVerification_WithProduct_005"/> -->
+    <!--  <class name="TestCases.Dress_VerifyPageTitle_001"/>-->  
+     <!--<class name="TestCases.Women_VerifySortByDropDown_001"/>  --> 
+    <!--  <class name="TestCases.Home_Contactus_SendMessage_003"/>-->  
+     <!-- <class name="TestCases.Home_Footer_MyAccountLinks_Verification_006"/> --> 
+      <class name="TestCases.Home_ContactUs_LinkVerification_001"/>
+     
+      <!-- <class name="TestCases.Home_AddToCart_CheckProduct_006"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

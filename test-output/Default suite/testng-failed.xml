@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.Home_Footer_MyAccountLinks_Verification_006">
+      <class name="TestCases.Dress_VerifyPageTitle_001">
         <methods>
-          <include name="verifyMyAccountFooterLinks"/>
           <include name="tearDown"/>
+          <include name="verifyDressPage"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.Home_Footer_MyAccountLinks_Verification_006 -->
+      </class> <!-- TestCases.Dress_VerifyPageTitle_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
