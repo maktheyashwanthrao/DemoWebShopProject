@@ -16,7 +16,7 @@ public class AuthenticationPage {
 	}
 
 	// Email Address for registration
-	@FindBy(id = "email_create")
+	@FindBy(xpath="//input[@id='email_create']")
 	@CacheLookup
 	WebElement writeemial;
 
