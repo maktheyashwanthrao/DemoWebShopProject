@@ -39,6 +39,17 @@ public class HomePage {
 
 	}
 
+	
+	// Homepage Signin
+		@FindBy(linkText = "Sign in")
+		@CacheLookup
+		WebElement Signin;
+
+		public WebElement getSigninLink() {
+			return Signin ;
+
+		}
+		
 	// CartButton
 	@FindBy(className = "ajax_cart_no_product")
 	@CacheLookup

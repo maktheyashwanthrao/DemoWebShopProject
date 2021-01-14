@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="26303" started-at="2021-01-10T01:39:55 IST" finished-at="2021-01-10T01:40:21 IST">
+  <suite name="Suite" duration-ms="26766" started-at="2021-01-14T17:35:01 IST" finished-at="2021-01-14T17:35:27 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="26303" started-at="2021-01-10T01:39:55 IST" finished-at="2021-01-10T01:40:21 IST">
+    <test name="Test" duration-ms="26766" started-at="2021-01-14T17:35:01 IST" finished-at="2021-01-14T17:35:27 IST">
       <class name="TestCases.Home_ContactUs_LinkVerification_001">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Home_ContactUs_LinkVerification_001@661972b0]" name="setUp" is-config="true" duration-ms="17979" started-at="2021-01-10T01:39:55 IST" finished-at="2021-01-10T01:40:13 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Home_ContactUs_LinkVerification_001@323b36e0]" name="setUp" is-config="true" duration-ms="16845" started-at="2021-01-14T17:35:01 IST" finished-at="2021-01-14T17:35:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContactUseLink()[pri:0, instance:TestCases.Home_ContactUs_LinkVerification_001@661972b0]" name="verifyContactUseLink" duration-ms="7203" started-at="2021-01-10T01:40:13 IST" finished-at="2021-01-10T01:40:20 IST">
+        <test-method status="PASS" signature="verifyContactUseLink()[pri:0, instance:TestCases.Home_ContactUs_LinkVerification_001@323b36e0]" name="verifyContactUseLink" duration-ms="8825" started-at="2021-01-14T17:35:17 IST" finished-at="2021-01-14T17:35:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactUseLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Home_ContactUs_LinkVerification_001@661972b0]" name="tearDown" is-config="true" duration-ms="1006" started-at="2021-01-10T01:40:20 IST" finished-at="2021-01-10T01:40:21 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Home_ContactUs_LinkVerification_001@323b36e0]" name="tearDown" is-config="true" duration-ms="987" started-at="2021-01-14T17:35:26 IST" finished-at="2021-01-14T17:35:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
