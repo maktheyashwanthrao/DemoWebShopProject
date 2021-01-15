@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="Suite" >
+
+<listeners>
+<listener class-name="Utilities.Listeners"></listener>
+</listeners>
+
+  <test thread-count="5" name="Test" parallel = "tests">
     <classes>
-    <!-- <class name="TestCases.Women_VerifyPageTitle_001"/>  --> 
-      <!-- <class name="TestCases.Home_CartButtonVerification_WithoutProduct_004"/> -->
-      <!--  <class name="TestCases.Home_Contactus_HomeButtonVerification_002"/>-->
-      <!-- <class name="TestCases.Home_CartButtonVerification_WithProduct_005"/> -->
-    <!--  <class name="TestCases.Dress_VerifyPageTitle_001"/>-->  
-     <!--<class name="TestCases.Women_VerifySortByDropDown_001"/>  --> 
-    <!--  <class name="TestCases.Home_Contactus_SendMessage_003"/>-->  
-     <!-- <class name="TestCases.Home_Footer_MyAccountLinks_Verification_006"/> --> 
-     <!--  <class name="TestCases.Home_ContactUs_LinkVerification_001"/>--> 
-     
-      <!--  <class name="TestCases.Home_AddToCart_CheckProduct_006"/>-->  
-        <class name="TestCases.Registration"/> 
-       
-    </classes>
+      <class name="TestCases.Women_VerifyWomensPage_001"/>
+      <class name="TestCases.Dress_VerifyPageTitle_001"/>
+      <class name="TestCases.Home_Footer_InformationLinks_Verification_004"/>
+      <class name="TestCases.Home_CartButton_Verification_002"/>
+      <class name="TestCases.Home_AddToCart_CheckProduct_003"/>
+      <class name="TestCases.Home_Sign_Registration_004"/>
+      <class name="TestCases.Home_Contactus_PageVerification_001"/>
+      
+     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

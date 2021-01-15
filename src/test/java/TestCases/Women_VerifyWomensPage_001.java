@@ -11,26 +11,41 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentTest;
+
 import PageObjects.HomePage;
 import PageObjects.WomenPage;
 
-public class Women_VerifySortByDropDown_001 extends BaseClass {
+public class Women_VerifyWomensPage_001 extends BaseClass {
 
 	private static Logger log = LogManager.getLogger(BaseClass.class.getName());
 
-	@Test()
-	public void verifySortByDropDowm() throws InterruptedException {
+	@Test(priority = 1)
+	public void VerifyWomenPageSection() throws InterruptedException {
+
 		HomePage hp = new HomePage(driver);
 
-		log.error("Home Page driver is initialized");
-		log.fatal("am fatal error");
-		log.info("am information");
+		System.out.println("WebDriver Object " + driver);
+
+		hp.getWomenPage().click();
+		Thread.sleep(5000);
+		String actualtitle = driver.findElement(By.className("cat-name")).getText();
+		String ExpectedTitle = "WOMEN ";
+
+		log.info("VerifyWomenPageSection Test method Setup Done");
+		Assert.assertEquals(actualtitle, ExpectedTitle);
+		log.info("VerifyWomenPageSection Test method Pass");
+
+	}
+
+	@Test(priority = 2)
+	public void verifySortByDropDowm() throws InterruptedException {
+
+		HomePage hp = new HomePage(driver);
 
 		hp.getWomenPage().click();
 		Thread.sleep(2000);
 
-		// Check how to use findbyelements in @findBy annotation
-		// WomenPage wp = new WomenPage(driver);
 		ArrayList<String> actualDropDownValues = new ArrayList<String>();
 
 		ArrayList<String> expecetedDropDownValues = new ArrayList<String>();
@@ -59,7 +74,9 @@ public class Women_VerifySortByDropDown_001 extends BaseClass {
 
 		}
 		System.out.println("Actual dropdowm values " + actualDropDownValues);
-
+		log.info("verifySortByDropDowm Test method Setup Done");
 		Assert.assertEquals(actualDropDownValues, expecetedDropDownValues);
+		log.info("verifySortByDropDowm Test method Pass");
+
 	}
 }

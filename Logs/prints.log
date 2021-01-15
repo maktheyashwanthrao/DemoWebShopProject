@@ -1,2 +1,3 @@
-09:11:26.051 [main] FATAL TestCases.BaseClass - am fatal error
-09:11:26.068 [main] INFO  TestCases.BaseClass - am information
+22:10:42.829 [main] INFO  TestCases.Home_Contactus_PageVerification_001 - sendMessage Test method Setup Done and it got pass
+22:10:53.911 [main] INFO  TestCases.Home_Contactus_PageVerification_001 - homeButtonVerification Test method Setup Done
+22:10:53.911 [main] INFO  TestCases.Home_Contactus_PageVerification_001 - homeButtonVerification Test method Pass

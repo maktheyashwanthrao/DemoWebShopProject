@@ -1,5 +1,4 @@
 package TestCases;
-/// actual verification of links is pending need to compare link name with title name
 
 import java.util.Iterator;
 import java.util.List;
@@ -12,17 +11,14 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class Home_Footer_MyAccountLinks_Verification_006 extends BaseClass {
+import com.aventstack.extentreports.ExtentTest;
 
-	private static Logger log = LogManager.getLogger(Home_Footer_MyAccountLinks_Verification_006.class.getName());
-	
+public class Home_Footer_InformationLinks_Verification_004 extends BaseClass {
+
+	private static Logger log = LogManager.getLogger(Home_Footer_InformationLinks_Verification_004.class.getName());
+
 	@Test()
 	public void verifyMyAccountFooterLinks() throws InterruptedException {
-		
-		log.error("Home Page driver is initialized");
-		log.fatal("am fatal error");
-		log.info("am information");
-		
 
 		List<WebElement> footerLinks = driver
 				.findElements(By.xpath("//section[@id='block_various_links_footer']//ul//li//a"));
@@ -47,6 +43,8 @@ public class Home_Footer_MyAccountLinks_Verification_006 extends BaseClass {
 			System.out.println(driver.getTitle());
 
 		}
+
+		log.info("verifyMyAccountFooterLinks Test method Setup Done and Passed");
 
 	}
 

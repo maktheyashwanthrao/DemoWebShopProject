@@ -1,8 +1,5 @@
-08:29:23.864 [main] INFO  TestCases.BaseClass - am information
-09:04:52.435 [main] ERROR TestCases.BaseClass - Home Page driver is initialized
-09:04:52.447 [main] FATAL TestCases.BaseClass - am fatal error
-09:04:52.448 [main] INFO  TestCases.BaseClass - am information
-09:09:16.037 [main] ERROR TestCases.BaseClass - Home Page driver is initialized
-09:09:16.047 [main] FATAL TestCases.BaseClass - am fatal error
-09:09:16.048 [main] INFO  TestCases.BaseClass - am information
-09:11:26.037 [main] ERROR TestCases.BaseClass - Home Page driver is initialized
+22:08:44.565 [main] INFO  TestCases.Home_CartButton_Verification_002 - verifyCartWithoutProduct Test method Setup Done
+22:08:44.574 [main] INFO  TestCases.Home_CartButton_Verification_002 - verifyCartWithoutProduct Test method Pass
+22:09:09.024 [main] INFO  TestCases.Home_AddToCart_CheckProduct_003 - ProductSelection Test method Setup Done
+22:10:04.466 [main] INFO  TestCases.Home_Sign_Registration_004 - completeRegistraion Test method Setup Done
+22:10:29.157 [main] INFO  TestCases.Home_Contactus_PageVerification_001 - verifyContactUseLink Test method Setup Done
