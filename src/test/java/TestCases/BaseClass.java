@@ -1,5 +1,6 @@
 package TestCases;
 
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.LogManager;
 
@@ -43,7 +44,7 @@ public class BaseClass {
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Tester  ", "Yashwanth");
-		System.out.println("Extent report object" + extent);
+		
 
 	}
 
@@ -53,4 +54,13 @@ public class BaseClass {
 	public void tearDown() {
 		driver.quit();
 	}
+	
+	
+	public int generateRandomNum() {
+		Random random = new Random();
+		int randromnum = random.nextInt(9999);
+		System.out.println("Generated Ram");
+		return randromnum;
+	}
+	
 }

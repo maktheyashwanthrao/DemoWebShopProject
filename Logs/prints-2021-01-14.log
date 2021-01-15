@@ -1,6 +1,7 @@
-21:02:02.791 [main] FATAL TestCases.Home_ContactUs_LinkVerification_001 - am fatal error
-21:02:02.808 [main] INFO  TestCases.Home_ContactUs_LinkVerification_001 - am information
-21:03:22.695 [main] ERROR TestCases.Home_ContactUs_LinkVerification_001 - Home Page driver is initialized
-21:03:22.707 [main] FATAL TestCases.Home_ContactUs_LinkVerification_001 - am fatal error
-21:03:22.708 [main] INFO  TestCases.Home_ContactUs_LinkVerification_001 - am information
-21:04:34.270 [main] ERROR TestCases.Home_ContactUs_LinkVerification_001 - Home Page driver is initialized
+21:04:34.288 [main] FATAL TestCases.Home_ContactUs_LinkVerification_001 - am fatal error
+21:04:34.309 [main] INFO  TestCases.Home_ContactUs_LinkVerification_001 - am information
+08:16:07.033 [main] ERROR TestCases.BaseClass - Home Page driver is initialized
+08:16:07.075 [main] FATAL TestCases.BaseClass - am fatal error
+08:16:07.075 [main] INFO  TestCases.BaseClass - am information
+08:29:23.848 [main] ERROR TestCases.BaseClass - Home Page driver is initialized
+08:29:23.863 [main] FATAL TestCases.BaseClass - am fatal error

@@ -15,21 +15,24 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.Test;
 
 import PageObjects.AuthenticationPage;
+import PageObjects.CreateAnAccountPage;
 import PageObjects.HomePage;
 
 public class Registration extends BaseClass {
 
 	@Test()
 	public void completeRegistraion() throws InterruptedException, IOException {
-//		HomePage hp = new HomePage(driver);
-//		hp.getSigninLink().click();
-//		Thread.sleep(5000);
-//
-//		AuthenticationPage ap = new AuthenticationPage(driver);
-//		ap.writeEmail().sendKeys("test@testing.com");
-//		ap.CreateAnAccount().click();
-//		Thread.sleep(5000);
+		HomePage hp = new HomePage(driver);
+		hp.getSigninLink().click();
+		Thread.sleep(5000);
 
+		AuthenticationPage ap = new AuthenticationPage(driver);
+		//ap.writeEmail().sendKeys("test@testing.com");
+		ap.writeEmail().sendKeys("test@testing" +generateRandomNum()+".com");
+		ap.CreateAnAccount().click();
+		Thread.sleep(5000);
+
+		//* The below code is to read the data from excel
 		ArrayList<String> inputData = new ArrayList<String>();
 
 		FileInputStream fis = new FileInputStream("F:\\Docs\\RegistrationData.xlsx");
@@ -70,7 +73,26 @@ public class Registration extends BaseClass {
 				System.out.println(column);
 			}
 		}
-
+		//* The below code is to read the data from excel
+		
+		//entering values in account create page
+		CreateAnAccountPage cap = new CreateAnAccountPage(driver);
+		cap.getPhoneNumber().sendKeys(inputData.get(0));
+		cap.getLastName().sendKeys(inputData.get(1));
+		cap.getFirstname().sendKeys(inputData.get(2));
+		cap.getPassword().sendKeys(inputData.get(3));		
+		Thread.sleep(5000);
+		
+		cap.getAddress().sendKeys(inputData.get(4));
+		cap.getCity().sendKeys(inputData.get(5));
+		cap.getPostalCode().sendKeys(inputData.get(6));
+		cap.getCountry().sendKeys(inputData.get(7));		
+		Thread.sleep(5000);
+		
+		cap.getRegisterButton().click();
+		Thread.sleep(5000);
+		
+		
 	}
 
 }

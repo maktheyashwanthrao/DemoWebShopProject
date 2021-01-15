@@ -3,6 +3,7 @@ C:\Users\YashPooja\SelfLearningProjectWithKhadar\src\test\java\TestCases\Home_Co
 C:\Users\YashPooja\SelfLearningProjectWithKhadar\src\test\java\TestCases\Home_AddToCart_CheckProduct_006.java
 C:\Users\YashPooja\SelfLearningProjectWithKhadar\src\test\java\PageObjects\HomePage.java
 C:\Users\YashPooja\SelfLearningProjectWithKhadar\src\test\java\TestCases\Dress_VerifyPageTitle_001.java
+C:\Users\YashPooja\SelfLearningProjectWithKhadar\src\test\java\TestCases\Registration.java
 C:\Users\YashPooja\SelfLearningProjectWithKhadar\src\test\java\TestCases\Women_VerifySortByDropDown_001.java
 C:\Users\YashPooja\SelfLearningProjectWithKhadar\src\test\java\Utilities\ReadConfig.java
 C:\Users\YashPooja\SelfLearningProjectWithKhadar\src\test\java\PageObjects\DressPage.java
@@ -15,3 +16,5 @@ C:\Users\YashPooja\SelfLearningProjectWithKhadar\src\test\java\TestCases\BaseCla
 C:\Users\YashPooja\SelfLearningProjectWithKhadar\src\test\java\PageObjects\ContactUsPage.java
 C:\Users\YashPooja\SelfLearningProjectWithKhadar\src\test\java\TestCases\Home_Contactus_HomeButtonVerification_002.java
 C:\Users\YashPooja\SelfLearningProjectWithKhadar\src\test\java\TestCases\Women_VerifyPageTitle_001.java
+C:\Users\YashPooja\SelfLearningProjectWithKhadar\src\test\java\PageObjects\AuthenticationPage.java
+C:\Users\YashPooja\SelfLearningProjectWithKhadar\src\test\java\PageObjects\CreateAnAccountPage.java

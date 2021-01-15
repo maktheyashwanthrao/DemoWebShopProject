@@ -16,14 +16,88 @@ public class CreateAnAccountPage {
 
 	}
 
-	// Dresspage name verification
-	@FindBy(xpath = "//span[@class='cat-name']")
+	// Create Account Phone Number 
+	@FindBy(id = "phone_mobile")
 	@CacheLookup
-	WebElement dressPage;
+	WebElement phoneNumber;
 
-	public WebElement getDressPage() {
-		return dressPage;
+	public WebElement getPhoneNumber() {
+		return phoneNumber;
 
 	}
 
+	// Create Account Lastname
+		@FindBy(id = "lastname")
+		@CacheLookup
+		WebElement Lastname;
+
+		public WebElement getLastName() {
+			return Lastname;
+
+		}
+		// Create Account First name 
+		@FindBy(id = "firstname")
+		@CacheLookup
+		WebElement Firstname ;
+
+		public WebElement getFirstname() {
+			return Firstname ;
+
+		}
+		// Create Account password 
+		@FindBy(id = "passwd")
+		@CacheLookup
+		WebElement password;
+
+		public WebElement getPassword() {
+			return password;
+
+		}
+		// Create Account Address
+		@FindBy(id = "address1")
+		@CacheLookup
+		WebElement Address;
+
+		public WebElement getAddress() {
+			return Address;
+
+		}
+		// Create Account city 
+		@FindBy(id = "city")
+		@CacheLookup
+		WebElement city;
+
+		public WebElement getCity() {
+			return city;
+
+		}
+		// Create Account postal code
+		@FindBy(id = "postcode")
+		@CacheLookup
+		WebElement postalcode;
+
+		public WebElement getPostalCode() {
+			return postalcode;
+
+		}
+		// Create Account country
+		@FindBy(id = "id_country")
+		@CacheLookup
+		WebElement country;
+
+		public WebElement getCountry() {
+			return country;
+
+		}
+		
+		// Create Account Registerbutton
+				@FindBy(xpath = "//button[@id='submitAccount']")
+				@CacheLookup
+				WebElement registerButton;
+
+				public WebElement getRegisterButton() {
+					return registerButton;
+
+				}
+		
 }

@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="26766" started-at="2021-01-14T17:35:01 IST" finished-at="2021-01-14T17:35:27 IST">
+  <suite name="Suite" duration-ms="35451" started-at="2021-01-15T00:55:31 IST" finished-at="2021-01-15T00:56:06 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="26766" started-at="2021-01-14T17:35:01 IST" finished-at="2021-01-14T17:35:27 IST">
-      <class name="TestCases.Home_ContactUs_LinkVerification_001">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Home_ContactUs_LinkVerification_001@323b36e0]" name="setUp" is-config="true" duration-ms="16845" started-at="2021-01-14T17:35:01 IST" finished-at="2021-01-14T17:35:17 IST">
+    <test name="Test" duration-ms="35451" started-at="2021-01-15T00:55:31 IST" finished-at="2021-01-15T00:56:06 IST">
+      <class name="TestCases.Registration">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.Registration@5c7fa833]" name="setUp" is-config="true" duration-ms="18169" started-at="2021-01-15T00:55:31 IST" finished-at="2021-01-15T00:55:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContactUseLink()[pri:0, instance:TestCases.Home_ContactUs_LinkVerification_001@323b36e0]" name="verifyContactUseLink" duration-ms="8825" started-at="2021-01-14T17:35:17 IST" finished-at="2021-01-14T17:35:26 IST">
+        <test-method status="PASS" signature="completeRegistraion()[pri:0, instance:TestCases.Registration@5c7fa833]" name="completeRegistraion" duration-ms="16152" started-at="2021-01-15T00:55:49 IST" finished-at="2021-01-15T00:56:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContactUseLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Home_ContactUs_LinkVerification_001@323b36e0]" name="tearDown" is-config="true" duration-ms="987" started-at="2021-01-14T17:35:26 IST" finished-at="2021-01-14T17:35:27 IST">
+        </test-method> <!-- completeRegistraion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Registration@5c7fa833]" name="tearDown" is-config="true" duration-ms="1022" started-at="2021-01-15T00:56:05 IST" finished-at="2021-01-15T00:56:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.Home_ContactUs_LinkVerification_001 -->
+      </class> <!-- TestCases.Registration -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
