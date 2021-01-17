@@ -1,0 +1,5 @@
+21:34:34.823 [TestNG-test=Test-6] INFO  TestCases.BaseClass - VerifyWomenPageSection Test method Setup Done
+21:34:35.170 [TestNG-test=Test-6] INFO  TestCases.BaseClass - VerifyWomenPageSection Test method Pass
+21:34:39.220 [TestNG-test=Test-6] INFO  TestCases.BaseClass - verifySortByDropDowm Test method Setup Done
+21:34:39.220 [TestNG-test=Test-6] INFO  TestCases.BaseClass - verifySortByDropDowm Test method Pass
+21:35:03.584 [TestNG-test=Test-5] INFO  TestCases.Home_Footer_InformationLinks_Verification_004 - verifyMyAccountFooterLinks Test method Setup Done and Passed

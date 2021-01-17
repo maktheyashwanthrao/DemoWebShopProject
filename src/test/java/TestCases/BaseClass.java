@@ -32,8 +32,6 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-		
-
 	}
 
 	@AfterClass()
@@ -48,18 +46,18 @@ public class BaseClass {
 		return randromnum;
 	}
 
-	public String getScreenshotpath(String testMethodName,WebDriver driver)  throws IOException {
-		System.out.println("Driver in Screenshot method " +driver);
-		TakesScreenshot ts =(TakesScreenshot)driver;
+	public String getScreenshotpath(String testMethodName, WebDriver driver) throws IOException {
+		System.out.println("Driver in Screenshot method " + driver);
+		TakesScreenshot ts = (TakesScreenshot) driver;
 		File Source = ts.getScreenshotAs(OutputType.FILE);
-		String destinationFile = System.getProperty("user.dir")+"\\Screenshots\\"+testMethodName+".png";
+		String destinationFile = System.getProperty("user.dir") + "\\Screenshots\\" + testMethodName + ".png";
 		FileUtils.copyFile(Source, new File(destinationFile));
 		return destinationFile;
 	}
-	
+
 	public WebDriver getDriver() {
 		return driver;
-		
+
 	}
-	
+
 }

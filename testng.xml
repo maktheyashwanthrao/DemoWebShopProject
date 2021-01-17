@@ -3,10 +3,11 @@
 <suite name="Suite" >
 
 <listeners>
-<listener class-name="Utilities.Listeners"></listener>
+<listener class-name="Utilities.Listeners"/>
+<listener class-name="Utilities.AnnotationTransformer"/>
 </listeners>
 
-  <test thread-count="5" name="Test" parallel = "tests">
+  <test thread-count="7" name="Test" parallel = "classes">
     <classes>
       <class name="TestCases.Women_VerifyWomensPage_001"/>
       <class name="TestCases.Dress_VerifyPageTitle_001"/>

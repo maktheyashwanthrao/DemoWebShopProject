@@ -1,5 +1,4 @@
-22:08:44.565 [main] INFO  TestCases.Home_CartButton_Verification_002 - verifyCartWithoutProduct Test method Setup Done
-22:08:44.574 [main] INFO  TestCases.Home_CartButton_Verification_002 - verifyCartWithoutProduct Test method Pass
-22:09:09.024 [main] INFO  TestCases.Home_AddToCart_CheckProduct_003 - ProductSelection Test method Setup Done
-22:10:04.466 [main] INFO  TestCases.Home_Sign_Registration_004 - completeRegistraion Test method Setup Done
-22:10:29.157 [main] INFO  TestCases.Home_Contactus_PageVerification_001 - verifyContactUseLink Test method Setup Done
+22:46:43.460 [TestNG-test=Test-5] INFO  TestCases.Home_Contactus_PageVerification_001 - sendMessage Test method Setup Done and it got pass
+22:46:56.517 [TestNG-test=Test-5] INFO  TestCases.Home_Contactus_PageVerification_001 - homeButtonVerification Test method Setup Done
+22:46:56.517 [TestNG-test=Test-5] INFO  TestCases.Home_Contactus_PageVerification_001 - homeButtonVerification Test method Pass
+18:31:18.261 [main] INFO  TestCases.Home_Contactus_PageVerification_001 - homeButtonVerification Test method Setup Done

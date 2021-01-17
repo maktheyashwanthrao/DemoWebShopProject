@@ -70,5 +70,40 @@ public class ContactUsPage {
 				return messagebox;
 
 			}
+			
+			//Choose File xpath
+			@FindBy(xpath = "//input[@id='fileUpload']")
+			@CacheLookup
+			WebElement chooseFile;
+			
+
+			public WebElement getChooseFileButton() {
+				return chooseFile;
+
+			}
+			
+			
+			//Click on send button xpath
+			@FindBy(xpath = "//button[@id='submitMessage']")
+			@CacheLookup
+			WebElement sendButton;
+			
+
+			public WebElement getSendButton() {
+				return sendButton;
+
+			}
+			
+			
+			//Get Successful message send in customer service page xpath
+			@FindBy(xpath = "//p[contains(@class,'alert-success')]")
+			@CacheLookup
+			WebElement SuccessSendMessage;
+			
+
+			public WebElement getSuccessMessage() {
+				return SuccessSendMessage;
+
+			}
 	
 }
