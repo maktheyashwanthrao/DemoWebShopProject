@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="Utilities.Listeners"/>
-    <listener class-name="Utilities.AnnotationTransformer"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)" parallel="classes">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestCases.Home_Contactus_PageVerification_001">
+      <class name="com.dws.tests.ProductsPage_CheckOut">
         <methods>
-          <include name="verifyContactUseLink"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
-        </methods>
-      </class> <!-- TestCases.Home_Contactus_PageVerification_001 -->
-      <class name="TestCases.Home_CartButton_Verification_002">
-        <methods>
           <include name="tearDown"/>
-          <include name="verifyCartButtonWithProduct"/>
-          <include name="setUp"/>
+          <include name="Checkout"/>
         </methods>
-      </class> <!-- TestCases.Home_CartButton_Verification_002 -->
-      <class name="TestCases.Home_Sign_Registration_004">
-        <methods>
-          <include name="tearDown"/>
-          <include name="completeRegistraion"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- TestCases.Home_Sign_Registration_004 -->
+      </class> <!-- com.dws.tests.ProductsPage_CheckOut -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

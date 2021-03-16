@@ -1,4 +1,0 @@
-22:46:43.460 [TestNG-test=Test-5] INFO  TestCases.Home_Contactus_PageVerification_001 - sendMessage Test method Setup Done and it got pass
-22:46:56.517 [TestNG-test=Test-5] INFO  TestCases.Home_Contactus_PageVerification_001 - homeButtonVerification Test method Setup Done
-22:46:56.517 [TestNG-test=Test-5] INFO  TestCases.Home_Contactus_PageVerification_001 - homeButtonVerification Test method Pass
-18:31:18.261 [main] INFO  TestCases.Home_Contactus_PageVerification_001 - homeButtonVerification Test method Setup Done

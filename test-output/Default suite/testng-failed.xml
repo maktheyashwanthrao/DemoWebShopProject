@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.Home_Contactus_PageVerification_001">
+      <class name="com.dws.tests.ProductsPage_CheckOut">
         <methods>
-          <include name="verifyContactUseLink"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Checkout"/>
         </methods>
-      </class> <!-- TestCases.Home_Contactus_PageVerification_001 -->
+      </class> <!-- com.dws.tests.ProductsPage_CheckOut -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

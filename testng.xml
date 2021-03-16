@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" >
-
-<listeners>
-<listener class-name="Utilities.Listeners"/>
-<listener class-name="Utilities.AnnotationTransformer"/>
-</listeners>
-
-  <test thread-count="7" name="Test" parallel = "classes">
-    <classes>
-      <class name="TestCases.Women_VerifyWomensPage_001"/>
-      <class name="TestCases.Dress_VerifyPageTitle_001"/>
-      <class name="TestCases.Home_Footer_InformationLinks_Verification_004"/>
-      <class name="TestCases.Home_CartButton_Verification_002"/>
-      <class name="TestCases.Home_AddToCart_CheckProduct_003"/>
-      <class name="TestCases.Home_Sign_Registration_004"/>
-      <class name="TestCases.Home_Contactus_PageVerification_001"/>
-      
-     </classes>
-  </test> <!-- Test -->
+<suite name="Suite">
+	<test thread-count="1" name="Test" preserve-order="true">
+		<classes>
+			<class name="com.dws.tests.Home_LoginVerifyWelcomeMessage" />
+			<class name="com.dws.tests.LoginPage_Login_VerifyUserId" />
+			<class name="com.dws.tests.ProductsPage_AddBooks" />
+			<class name="com.dws.tests.ProductsPage_ClearCart" />			
+			<class name="com.dws.tests.ProductsPage_CheckOut" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
