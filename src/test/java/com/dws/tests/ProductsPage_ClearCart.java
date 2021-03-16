@@ -10,14 +10,16 @@ import org.testng.annotations.Test;
 
 import com.dws.constants.FrameworkConstants;
 import com.dws.pages.HomePage;
-import com.dws.pages.LoginPage;
 import com.dws.pages.ProductsPage;
 import com.dws.pages.ShopingCartPage;
-import com.dws.utilities.ReadConfig;
 
 public class ProductsPage_ClearCart extends BaseClass {
 
-	@Test(priority = 1)
+	/*
+	 * Login and click on cart button, select all products under cart and clear the
+	 * cart and verify message
+	 */
+	@Test()
 	public void ProductPage() throws InterruptedException {
 
 		HomePage hp = new HomePage(driver);

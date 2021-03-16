@@ -1,81 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="94247" started-at="2021-03-16T22:37:36 IST" finished-at="2021-03-16T22:39:10 IST">
+  <suite name="Default suite" duration-ms="10670" started-at="2021-03-16T23:10:41 IST" finished-at="2021-03-16T23:10:51 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="94247" started-at="2021-03-16T22:37:36 IST" finished-at="2021-03-16T22:39:10 IST">
+    <test name="Default test" duration-ms="10670" started-at="2021-03-16T23:10:41 IST" finished-at="2021-03-16T23:10:51 IST">
       <class name="com.dws.tests.Home_LoginVerifyWelcomeMessage">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dws.tests.Home_LoginVerifyWelcomeMessage@26aa12dd]" name="setUp" is-config="true" duration-ms="12578" started-at="2021-03-16T22:37:36 IST" finished-at="2021-03-16T22:37:49 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCartButtonWithoutProduct()[pri:1, instance:com.dws.tests.Home_LoginVerifyWelcomeMessage@26aa12dd]" name="verifyCartButtonWithoutProduct" duration-ms="3295" started-at="2021-03-16T22:37:49 IST" finished-at="2021-03-16T22:37:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCartButtonWithoutProduct -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dws.tests.Home_LoginVerifyWelcomeMessage@26aa12dd]" name="tearDown" is-config="true" duration-ms="1079" started-at="2021-03-16T22:37:52 IST" finished-at="2021-03-16T22:37:53 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.dws.tests.Home_LoginVerifyWelcomeMessage -->
-      <class name="com.dws.tests.LoginPage_Login_VerifyUserId">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dws.tests.LoginPage_Login_VerifyUserId@3fd7a715]" name="setUp" is-config="true" duration-ms="10165" started-at="2021-03-16T22:37:53 IST" finished-at="2021-03-16T22:38:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginandVerifyUserId()[pri:1, instance:com.dws.tests.LoginPage_Login_VerifyUserId@3fd7a715]" name="LoginandVerifyUserId" duration-ms="2951" started-at="2021-03-16T22:38:03 IST" finished-at="2021-03-16T22:38:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginandVerifyUserId -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dws.tests.LoginPage_Login_VerifyUserId@3fd7a715]" name="tearDown" is-config="true" duration-ms="1023" started-at="2021-03-16T22:38:06 IST" finished-at="2021-03-16T22:38:07 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.dws.tests.LoginPage_Login_VerifyUserId -->
-      <class name="com.dws.tests.ProductsPage_ClearCart">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dws.tests.ProductsPage_ClearCart@71bbf57e]" name="setUp" is-config="true" duration-ms="9835" started-at="2021-03-16T22:38:26 IST" finished-at="2021-03-16T22:38:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ProductPage()[pri:1, instance:com.dws.tests.ProductsPage_ClearCart@71bbf57e]" name="ProductPage" duration-ms="13681" started-at="2021-03-16T22:38:35 IST" finished-at="2021-03-16T22:38:49 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dws.tests.ProductsPage_ClearCart@71bbf57e]" name="tearDown" is-config="true" duration-ms="1028" started-at="2021-03-16T22:38:49 IST" finished-at="2021-03-16T22:38:50 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.dws.tests.ProductsPage_ClearCart -->
-      <class name="com.dws.tests.ProductsPage_CheckOut">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dws.tests.ProductsPage_CheckOut@7f13d6e]" name="setUp" is-config="true" duration-ms="9474" started-at="2021-03-16T22:38:50 IST" finished-at="2021-03-16T22:39:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="Checkout()[pri:0, instance:com.dws.tests.ProductsPage_CheckOut@7f13d6e]" name="Checkout" duration-ms="9216" started-at="2021-03-16T22:39:00 IST" finished-at="2021-03-16T22:39:09 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.dws.tests.Home_LoginVerifyWelcomeMessage@1f554b06]" name="setUp" is-config="true" duration-ms="10396" started-at="2021-03-16T23:10:41 IST" finished-at="2021-03-16T23:10:51 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='termsofservice']"}
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=89.0.4389.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-1T2AMDB', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\YashPooja\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:63260}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c17d53624ed934f744d565790fb44462
-*** Element info: {Using=xpath, value=//input[@id='termsofservice']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\YashPooja\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:60620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 92861995bb1b354a890df52aa4d0f7b4]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='termsofservice']"}
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=89.0.4389.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-1T2AMDB', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\YashPooja\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:63260}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c17d53624ed934f744d565790fb44462
-*** Element info: {Using=xpath, value=//input[@id='termsofservice']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\YashPooja\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:60620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 92861995bb1b354a890df52aa4d0f7b4
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -86,26 +38,19 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at com.dws.tests.ProductsPage_CheckOut.Checkout(ProductsPage_CheckOut.java:26)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at com.dws.tests.BaseClass.setUp(BaseClass.java:30)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
 at java.util.ArrayList.forEach(ArrayList.java:1257)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
@@ -124,29 +69,81 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Checkout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dws.tests.ProductsPage_CheckOut@7f13d6e]" name="tearDown" is-config="true" duration-ms="1421" started-at="2021-03-16T22:39:09 IST" finished-at="2021-03-16T22:39:10 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.dws.tests.ProductsPage_CheckOut -->
-      <class name="com.dws.tests.ProductsPage_AddBooks">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dws.tests.ProductsPage_AddBooks@711f39f9]" name="setUp" is-config="true" duration-ms="9977" started-at="2021-03-16T22:38:07 IST" finished-at="2021-03-16T22:38:17 IST">
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addProducttoCart()[pri:0, instance:com.dws.tests.ProductsPage_AddBooks@711f39f9]" name="addProducttoCart" duration-ms="6823" started-at="2021-03-16T22:38:17 IST" finished-at="2021-03-16T22:38:24 IST">
+        <test-method status="SKIP" signature="verifyCartButtonWithoutProduct()[pri:1, instance:com.dws.tests.Home_LoginVerifyWelcomeMessage@1f554b06]" name="verifyCartButtonWithoutProduct" duration-ms="0" started-at="2021-03-16T23:10:51 IST" finished-at="2021-03-16T23:10:51 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1T2AMDB', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\YashPooja\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:60620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 92861995bb1b354a890df52aa4d0f7b4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1T2AMDB', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\YashPooja\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:60620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 92861995bb1b354a890df52aa4d0f7b4
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at com.dws.tests.BaseClass.setUp(BaseClass.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addProducttoCart -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dws.tests.ProductsPage_AddBooks@711f39f9]" name="tearDown" is-config="true" duration-ms="1471" started-at="2021-03-16T22:38:24 IST" finished-at="2021-03-16T22:38:26 IST">
+        </test-method> <!-- verifyCartButtonWithoutProduct -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.dws.tests.Home_LoginVerifyWelcomeMessage@1f554b06]" name="tearDown" is-config="true" duration-ms="-1615916451900" started-at="2021-03-16T23:10:51 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.dws.tests.ProductsPage_AddBooks -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.dws.tests.Home_LoginVerifyWelcomeMessage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

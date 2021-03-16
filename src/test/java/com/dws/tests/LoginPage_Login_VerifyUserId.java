@@ -11,7 +11,10 @@ import com.dws.utilities.ReadConfig;
 
 public class LoginPage_Login_VerifyUserId extends BaseClass {
 
-	@Test(priority = 1)
+	/*
+	 * Login with valid credentials and get the login userid and verify it
+	 */
+	@Test()
 	public void LoginandVerifyUserId() throws InterruptedException {	
 		
 		login();
